@@ -37,7 +37,7 @@ $ `yarn serve`
       },
      methods: {
       myFunction() {
-        this.userLogged = true;
+        this.key = newValue
         },
        },
       };
