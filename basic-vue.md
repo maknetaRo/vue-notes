@@ -15,7 +15,7 @@ $ `yarn serve`
 
 ## Code structure of a component
 
-```
+```vue.js
 <template>
   <h1>Hello World</h1>
   <component-example />
