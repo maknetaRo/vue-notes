@@ -3,7 +3,7 @@
 
 $ `vue create project-name`
 
-**manual selection** 
+### manual selection 
 
 Babel -> Linter -> Unit Testing
 
@@ -14,7 +14,7 @@ Version 3.x ->
         config files ->  
           N for future projects (or Y if you want to have the same settings in future projects) 
 
-**how to run the project**
+### how to run the project
 
-`yarn serve`
+$ `yarn serve`
 
