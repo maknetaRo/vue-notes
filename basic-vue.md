@@ -89,8 +89,8 @@ $ `yarn serve`
         handleClick() {}
       },
      };
-</script>```
-
+</script>
+```
 
 ## props
 Props - those are properites that are registrated in a parent component and then passed onto a child component (or more children components) 
