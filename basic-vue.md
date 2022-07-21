@@ -13,3 +13,40 @@ Version 3.x ->  Eslint + Prettier ->  Lint on save ->  Jest ->  config files -> 
 
 $ `yarn serve`
 
+## Code structure of a component
+
+```
+<template>
+  <h1>Hello World</h1>
+  <component-example />
+  or 
+  <component-example>Text</component-example?
+ </template>
+ 
+ <script>
+ import ComponentExample from "@/components/ComponentExample.vue";
+ 
+ export default{
+    name: "components name",
+    components: {"ComponentExample",},
+   
+    data() {
+      return {
+        exampleLink: "https://example.link.com",
+        userLogged = false;
+        };
+       };
+     methods: {
+      myFunction() {
+        this.userLogged = true;
+        },
+       },
+      };
+      
+    
+ </script>
+ 
+ <style scoped>
+ </style>
+ ```
+
