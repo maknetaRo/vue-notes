@@ -7,7 +7,12 @@ $ `vue create project-name`
 
 Babel -> Linter -> Unit Testing
 
-Version 3.x -> Esling + Prettier -> Lint on save -> Jest -> config files -> N for future projects (or Y if you want to have the same settings in future projects)
+Version 3.x -> 
+  Eslint + Prettier -> 
+    Lint on save -> 
+      Jest -> 
+        config files -> 
+          N for future projects (or Y if you want to have the same settings in future projects)
 
 **how to run the project**
 
