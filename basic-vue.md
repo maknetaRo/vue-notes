@@ -20,22 +20,21 @@ $ `yarn serve`
   <h1>Hello World</h1>
   <component-example />
   or 
-  <component-example>Text</component-example?
+  <component-example>Text</component-example>
  </template>
  
  <script>
  import ComponentExample from "@/components/ComponentExample.vue";
  
  export default{
-    name: "components name",
-    components: {"ComponentExample",},
+    name: "component's name",
+    components: {"ComponentExample"},
    
     data() {
       return {
-        exampleLink: "https://example.link.com",
-        userLogged = false;
-        };
+        key: value,
        };
+      },
      methods: {
       myFunction() {
         this.userLogged = true;
