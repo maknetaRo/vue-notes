@@ -91,11 +91,14 @@ $ `yarn serve`
      };
 </script>```
 
+
 ## props 
+
 Props - those are properites that are registrated in a parent component and then passed onto a child component (or more children components) 
 They work only one way - always from the parent to the child!
 
 In a child component we add the name of the prop in `script` part:
+
 ```vue.js
 <script>
 export default {
