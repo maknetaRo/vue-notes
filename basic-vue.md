@@ -1,6 +1,15 @@
 
 ## Start Vue project with vue cli
 
+#### To install vue cli:
+```
+npm i -g @vue/cli
+# OR
+yarn global add @vue/cli
+```
+
+#### To start the project
+
 $ `vue create project-name`
 
 ### manual selection 
@@ -9,9 +18,16 @@ Babel -> Linter -> Unit Testing
 
 Version 3.x ->  Eslint + Prettier ->  Lint on save ->  Jest ->  config files -> N for future projects (or Y if you want to have the same settings in future projects) 
 
+#### we can choose other things if we want 
+like: router and vuex 
+
 ### how to run the project
 
+$ `cd project-name
+
 $ `yarn serve`
+or 
+$ `npm run serve`
 
 ## General structure of a component
 
@@ -122,3 +138,7 @@ Now, in the parent component we can use the child component and here we can pass
   <example-button-component text="Second button" />
 </template>
 ```
+
+## lifecycle hooks 
+#### created() 
+for api calls
